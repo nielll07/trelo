@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treloo - Discover Your Life, Travel Where You Want</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Treloo</div>
+            <ul class="nav-links">
+                <li><a href="#">Review</a></li>
+                <li><a href="#">Tips</a></li>
+                <li><a href="#">Alerts</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#" class="btn-blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="hero-section">
+        <div class="hero-content">
+            <h1>Discover Your Life, Travel Where You Want</h1>
+            <p>Would you explore natur paradise in the world, let's find the best destination in world with us.</p>
+        </div>
+
+        <div class="search-bar-container">
+            <div class="tabs">
+                <button class="tab-button active" data-tab="flight">
+                    <img src="images/flight-icon.png" alt="Flight Icon"> Flight
+                </button>
+                <button class="tab-button" data-tab="hotel">
+                    <img src="images/hotel-icon.png" alt="Hotel Icon"> Hotel
+                </button>
+            </div>
+            <div class="search-form-wrapper">
+                <form class="search-form active" id="flight-form">
+                    <div class="input-group">
+                        <label for="living-from">Living From</label>
+                        <input type="text" id="living-from" value="Dubai">
+                    </div>
+                    <div class="input-group">
+                        <label for="going-to">Going to</label>
+                        <input type="text" id="going-to" value="New York">
+                    </div>
+                    <div class="input-group">
+                        <label for="leave-date">Leave</label>
+                        <input type="text" id="leave-date" value="23 Jan, Sat">
+                    </div>
+                    <div class="input-group">
+                        <label for="return-date">Return</label>
+                        <input type="text" id="return-date" value="14 Jan, Thu">
+                    </div>
+                    <button type="submit" class="search-button">
+                        <img src="images/search-icon.png" alt="Search Icon">
+                    </button>
+                </form>
+
+                <form class="search-form" id="hotel-form" style="display: none;">
+                    <div class="input-group">
+                        <label for="hotel-location">Location</label>
+                        <input type="text" id="hotel-location" placeholder="Where do you want to stay?">
+                    </div>
+                    <div class="input-group">
+                        <label for="check-in">Check-in</label>
+                        <input type="text" id="check-in" placeholder="Select date">
+                    </div>
+                    <div class="input-group">
+                        <label for="check-out">Check-out</label>
+                        <input type="text" id="check-out" placeholder="Select date">
+                    </div>
+                    <div class="input-group">
+                        <label for="guests">Guests</label>
+                        <input type="text" id="guests" placeholder="Add guests">
+                    </div>
+                    <button type="submit" class="search-button">
+                        <img src="images/search-icon.png" alt="Search Icon">
+                    </button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <section class="recommended-destination-section">
+        <h2>Recommended Destination</h2>
+        <div class="destination-tabs">
+            <button class="dest-tab-button active">Popular</button>
+            <button class="dest-tab-button">Adventure</button>
+            <button class="dest-tab-button">Beach</button>
+        </div>
+        <div class="destination-cards-container">
+            <div class="destination-card">
+                <div class="card-image-wrapper">
+                    <img src="images/kiana-mountain-1.jpg" alt="Kina Mountain">
+                    <div class="rating-badge">⭐ 2.4</div>
+                </div>
+                <h3>Kina Mountain</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Cambodia</p>
+            </div>
+            <div class="destination-card">
+                <div class="card-image-wrapper">
+                    <img src="images/kiana-mountain-2.jpg" alt="Kina Mountain">
+                    <div class="rating-badge">⭐ 4.5</div>
+                </div>
+                <h3>Kina Mountain</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Cambodia</p>
+            </div>
+            <div class="destination-card">
+                <div class="card-image-wrapper">
+                    <img src="images/kiana-mountain-3.jpg" alt="Kina Mountain">
+                    <div class="rating-badge">⭐ 4.2</div>
+                </div>
+                <h3>Kina Mountain</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Cambodia</p>
+            </div>
+            <div class="destination-card">
+                <div class="card-image-wrapper">
+                    <img src="images/kiana-mountain-4.jpg" alt="Kina Mountain">
+                    <div class="rating-badge">⭐ 3.5</div>
+                </div>
+                <h3>Kina Mountain</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Cambodia</p>
+            </div>
+            </div>
+    </section>
+
+    <section class="travel-any-corner-section">
+        <div class="content-wrapper">
+            <div class="image-with-badges">
+                <img src="images/man-on-cliff.jpg" alt="Man on cliff overlooking ocean">
+                <div class="badge destinations-badge">300+ <br> DESTINATIONS</div>
+                <div class="badge tourists-badge">5000+ <br> TOURISTS</div>
+                <div class="badge hotels-badge">150+ <br> HOTELS</div>
+            </div>
+            <div class="text-content">
+                <h2>Travel Any Corner of The World With Us</h2>
+                <p>Would you explore nature paradise in the world, let's find the best destination in world with us. Would you explore nature paradise in the world, let's find the best destination in world with us. Would you explore nature paradise in the world, let's find the best destination in world with us.</p>
+                <button class="contact-button">Contact Us</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="discount-section">
+        <div class="discount-card">
+            <h2>Don't Miss The 50% Discount if You register Today</h2>
+            <button class="register-button">Register Today</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2022 Treloo LLC - All right reserved.</p>
+            <ul class="footer-nav-links">
+                <li><a href="#">Review</a></li>
+                <li><a href="#">Tips</a></li>
+                <li><a href="#">Alerts</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    </body>
+</html>
